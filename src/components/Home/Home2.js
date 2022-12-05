@@ -2,10 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -18,34 +15,22 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I learnt & love programming ever since I was{" "}
+              I have been programming since I was{" "}
               <i>
-                <b className="purple"> 8</b>.
+                <b className="purple">8 years old</b>
+              </i>{" "}
+              and I love it! I am an expert with{" "}
+              <i>
+                <b className="purple">C++, Javascript, and Python</b>
               </i>
-              <br />
-              <br />I am fluent in classics like
+              . My specialties are creating web technologies and products using{" "}
               <i>
-                <b className="purple"> C++, Javascript and Python</b>.
+                <b className="purple">Node.js, React.js, and Next.js</b>
               </i>
-              <br />
-              <br />
-              My field of Interest's are building new
+              . With my passion for development, I strive to build the best
+              products for my clients.
               <i>
-                <b className="purple">Web Technologies and Products</b>.
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>.
+                <b className="purple"></b>
               </i>
             </p>
           </Col>
