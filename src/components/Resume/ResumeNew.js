@@ -10,7 +10,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 const resumeLink =
   // "https://cdn.cloudservetechcentral.com/portfolio/Kayden%20Lee%20Resume.pdf";
-  "https://cloudservetechcentral.com/static/media/Kayden%20Lee%20Resume.d5a03f0ec28b548727ad.pdf";
+  // "https://cloudservetechcentral.com/static/media/Kayden%20Lee%20Resume.d5a03f0ec28b548727ad.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
